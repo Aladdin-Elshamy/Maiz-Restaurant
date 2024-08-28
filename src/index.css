@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "cotoris";
+    src: url('./fonts/Cotoris/Cotoris.otf');
+}
+
+@font-face {
+    font-family: "cotorisBold";
+    src: url('./fonts/Cotoris/CotorisBold.otf');
+}
+
+@font-face {
+    font-family: "cotorisHeavy";
+    src: url('./fonts/Cotoris/CotorisHeavy.otf');
+}
+body {
+    background-color: #5B0017;
+}
+
+.background{
+    background-image: url("../public/images/bg-img.png");
+    background-size: cover;
+}
+.feedback-img{
+    background-image: url("../public/images/feedback-img.png");
+    background-size: cover;
+}
+.title{
+    word-break: normal;
+}
+.menu{
+    background-image: url("../public/images/menu-img.png");
+    background-size: cover;
+    background-position: center;
+}
+.menu > div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(91, 0, 23, 0) 0%, #5B0017 93.23%);
+    color: white;
+    padding: 20px;
+    z-index: 999;
+}
+

@@ -1,7 +1,6 @@
 export default function Hero() {
     return (
         <section id="home" className="text-white container flex flex-nowrap items- flex-col lg:flex-row ">
-                {/* <div className="absolute top-72 md:top-2/4 -translate-y-1/2"><img src="./images/bg-img.png" className="min-w-full md:min-w-[700px] lg:max-w-[800px] lg:min-w-fit object-cover" alt="" /></div> */}
                 <div className="relative z-20 -top-36 background bg-center h-[900px]">
                     <h1 className="font-cotorisBold text-4xl sm:text-5xl md:text-7xl bg-transparent lg:bg-[#5B0017B2] min-w-4xl mt-48 lg:truncate pr-16">Taste the authentic
                     <br className="hidden md:block" /> Saudi cuisine</h1>
